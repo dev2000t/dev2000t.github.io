@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.app {
+    background: #282828;
+    font-family: Roboto, sans-serif;
+    padding: 0;
+    color: #ffffff;
+    margin: 4vh 0 0;
+}
+
+.app-name {
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-left: 5%;
+    opacity: 0.3;
+}
+
+.app-content {
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.button {
+    border-radius: 100000px;
+    border: none;
+    margin-top: 3vh;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 5vh;
+    outline: none;
+}
+
+.delay {
+    background-image: -moz-linear-gradient( 128deg, rgb(216,0,76) 0%, rgb(255,97,97) 100%);
+    background-image: -webkit-linear-gradient( 128deg, rgb(216,0,76) 0%, rgb(255,97,97) 100%);
+    background-image: -ms-linear-gradient( 128deg, rgb(216,0,76) 0%, rgb(255,97,97) 100%);
+    box-shadow: 0 3px 100px 0 rgba(255, 115, 115, 0.18);
+}
+
+.tap {
+    background-image: -moz-linear-gradient( 128deg, rgb(186,96,0) 0%, rgb(255,201,84) 100%);
+    background-image: -webkit-linear-gradient( 128deg, rgb(186,96,0) 0%, rgb(255,201,84) 100%);
+    background-image: -ms-linear-gradient( 128deg, rgb(186,96,0) 0%, rgb(255,201,84) 100%);
+    box-shadow: 0 3px 100px 0 rgba(196, 125, 0, 0.1);
+}
+
+.stop {
+    background-image: -moz-linear-gradient( 128deg, rgb(243,0,194) 0%, rgb(255,0,168) 100%);
+    background-image: -webkit-linear-gradient( 128deg, rgb(243,0,194) 0%, rgb(255,0,168) 100%);
+    background-image: -ms-linear-gradient( 128deg, rgb(243,0,194) 0%, rgb(255,0,168) 100%);
+    color: #ffffff;
+}

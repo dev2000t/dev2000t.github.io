@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Вибрация</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body class="app">
+<div class="app-name">@lkpot</div>
+<div class="app-content">
+    <button onclick="delay_v()" class="delay button">
+        <img class="button-content" src="assets/images/icons/delay.svg">
+    </button> <br>
+    <button onclick="infiniteVibrate([200,100,300,100],1000);" class="tap button">
+        <img class="button-content" src="assets/images/icons/waves.svg">
+    </button> <br>
+    <button onclick="stopVibrate()" class="stop button">
+        ОСТАНОВИТЬ
+    </button>
+</div>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
